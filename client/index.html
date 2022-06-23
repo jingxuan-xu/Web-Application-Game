@@ -1,0 +1,62 @@
+<!--Jingxuan Xu, 804226-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <style type="text/css">
+      body{
+        background: #f5f5f5;
+      }
+      #root{
+        background: #fff;
+      }
+    </style>
+    <title>Welcome!</title>
+  </head>
+  <body style="background-image:url(img/bg1.jpg)"> 
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="header">
+        <h1 style=color:plum><u>Hello world</u></h1>
+        <h2>Read the <span style=color:burlywood>Guide</span> page before you start this small game!</h2>
+        <h3 style=color:black>Start now</h3>
+      </div>
+      <div class="topnav">
+        <a href="./index.html">Home</a>
+        <a href="./guide.html">Guide</a>
+        <a href="./history.html">History</a>
+        <a href="./index_he.html">עברית</a>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="inputs">
+            <input type="number" id="newItem" placeholder="Type a natural number...." min="0" style="border:1px solid #ccc;">
+            <span id="addBtn" style="padding: 0 10px">ADD</span>
+            <select id="level" style="border: 1px solid #ccc">
+              <option value="1">Level1</option>
+              <option value="2">Level2</option>
+              <option value="3">Level3</option>
+            </select>
+          </div>
+          <div class="users">
+            <span class="item">
+              <img src="img/user1.png" alt="" width="40"><br>jack
+            </span>
+            <span class="item">
+              <img src="img/user2.jpg" alt="" width="40"><br>mary
+            </span>
+          </div>
+        </div>
+        <div class="column">
+          <ul id="itemsList"></ul>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript"></script>
+  </body>
+</html>
